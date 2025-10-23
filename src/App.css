@@ -1,0 +1,310 @@
+/* Header */
+.header {
+  background-color: #0b0f1a; 
+  border-bottom: 2px solid cyan;
+  padding: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+/* Flexbox for header content */
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: cyan;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+/* Subtitle under logo */
+.logo-subtitle {
+  color: #a8bfc9;
+  font-size: 0.9rem;
+}
+
+/*Page Background */
+.App {
+  background-color: #05070f; 
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+/*Card Styles */
+.scp-card {
+  background-color: #101520;
+  border: 1px solid #1f2b38;
+  border-radius: 8px;
+  padding: 15px;
+  color: white;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.05);
+  transition: all 0.3s;
+  height: 100%;
+}
+
+/* Card Hover Effect */
+.scp-card:hover {
+  border-color: cyan;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+  transform: translateY(-5px);
+}
+
+/* Card Content */
+.card-title {
+  color: cyan;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+/* Card Text */
+.card-text {
+  color: #a8bfc9;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/*Containment Classes (Glowing Badges) */
+.safe-badge {
+  background-color: #00c851;
+  color: white;
+  box-shadow: 0 0 10px #00c851;
+}
+
+/* Euclid Badge */
+.euclid-badge {
+  background-color: #ffd700;
+  color: black;
+  box-shadow: 0 0 10px #ffd700;
+}
+
+/* Keter Badge */
+.keter-badge {
+  background-color: #ff2b2b;
+  color: white;
+  box-shadow: 0 0 10px #ff2b2b;
+}
+
+/* Badge Base Styles */
+.badge {
+  font-weight: bold;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+/*Button Zone */
+.button {
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.25s;
+  border-radius: 4px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px cyan;
+}
+
+/* Button Types */
+.view-btn {
+  background-color: #0d1117;
+  color: cyan;
+  border: 1px solid cyan;
+}
+
+/* View Button Hover */
+.view-btn:hover {
+  background-color: cyan;
+  color: #0d1117;
+}
+
+/* Edit and Delete Buttons */
+.edit-btn {
+  background-color: #ffc400;
+  color: black;
+}
+
+/* Edit Button Hover */
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #ff3333;
+  color: white;
+}
+
+/* Delete Button Hover */
+.delete-btn:hover {
+  background-color: #d62e2e;
+}
+
+/* Add SCP Button */
+.add-btn {
+  background-color: cyan;
+  color: #0b0f1a;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Add Button Hover */
+.add-btn:hover {
+  background-color: #00eaff;
+  box-shadow: 0 0 20px cyan;
+  color: #0b0f1a;
+}
+
+/* Titles */
+.page-title {
+  color: cyan;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-shadow: 0 0 10px cyan, 0 0 25px cyan;
+}
+
+/* Subtitle */
+.subtitle {
+  text-align: center;
+  color: #a8bfc9;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+/* Form Styles */
+.scp-form {
+  color: white;
+}
+
+/* Form Group Styles */ 
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Form Group Labels */
+.form-group label {
+  display: block;
+  color: #a8bfc9;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* Form Group Inputs */
+.form-control,
+.form-select {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #101520;
+  border: 1px solid #1f2b38;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Form Group Input Focus */
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+  border-color: cyan;
+  box-shadow: 0 0 5px rgba(0, 242, 254, 0.3);
+  background-color: #101520;
+  color: white;
+}
+
+/* Form Buttons */
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+/* Cancel and Submit Buttons */
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: cyan;
+  color: #0b0f1a;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Cancel Button Hover */
+.cancel-btn:hover {
+  background-color: #5a6268;
+  color: white;
+}
+
+/* Submit Button Hover */
+.submit-btn:hover {
+  background-color: #00e0ec;
+  color: #0b0f1a;
+}
+
+/* Form Stuff */
+.modal-content {
+  background-color: #0b0f1a;
+  border: 1px solid #1f2b38;
+  color: white;
+  border-radius: 6px;
+}
+
+/* Modal Header */
+.modal-header {
+  background-color: #101520;
+  border-bottom: 1px solid #1f2b38;
+  color: white;
+}
+
+/* Modal Close Button */
+.modal-header .btn-close {
+  filter: invert(1);
+}
+
+/* Form Error Styles */
+.error {
+    border-color: #ff3333 !important;
+    box-shadow: 0 0 5px rgba(255, 51, 51, 0.5) !important;
+}
+
+/* Error Text */
+.error-text {
+    color: #ff3333;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+/* Spinner */
+.spinner-border {
+  color: cyan;
+}
+
+/* Ensure proper modal backdrop */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
